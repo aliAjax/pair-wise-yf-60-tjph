@@ -31,3 +31,22 @@ button:disabled { opacity:.45; cursor:not-allowed; }
 .tabs [role="tab"][data-selected] { background:#0f766e; color:white; }
 .timeline { border-left:2px solid #b9d6d6; margin-left:6px; padding-left:16px; }
 @media(max-width:900px){ .hero{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr} }
+.notice { background:#eefaf8; border:1px solid #b9e0dc; color:#0d5c58; border-radius:10px; padding:10px 14px; margin-bottom:16px; font-size:14px; }
+.conflict { background:#fff7ed; border:1px solid #f0c9a0; border-radius:10px; padding:10px 12px; margin:8px 0; color:#7a4a12; }
+.conflict-version { display:flex; flex-direction:column; gap:2px; padding:4px 0; border-bottom:1px dashed #f0c9a0; }
+.conflict-version:last-child { border-bottom:0; }
+.conflict-version small { color:#8a6a4a; font-size:12px; }
+.conflict-badge { background:#fdecc8; color:#7a5200; }
+.kind-badge { margin-left:6px; }
+.kind-activity .kind-badge { background:#e2f3f2; color:#0d6664; }
+.kind-status .kind-badge { background:#e3ecfb; color:#1d4ed8; }
+.kind-merge .kind-badge { background:#e7f6ec; color:#1d7a3a; }
+.kind-system .kind-badge { background:#f0e7ff; color:#6d28d9; }
+.kind-conflict .kind-badge { background:#fdecc8; color:#7a5200; }
+.timeline-entry { padding:6px 8px; border-radius:8px; }
+.timeline-entry.kind-conflict { background:#fff7ed; }
+.timeline-entry.kind-system { background:#f5f0ff; }
+.merged-note { color:#5d7780; font-size:13px; }
+.src { color:#8aa0a6; font-size:12px; }
+.edit-form { display:grid; gap:10px; margin-top:8px; }
+.edit-form h4 { margin:0; }
