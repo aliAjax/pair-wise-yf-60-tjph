@@ -1,0 +1,26 @@
+{
+  "name": "pair-wise-yf-60-prod",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@solid-primitives/i18n": "2.2.1",
+    "@solid-primitives/keyed": "1.5.3",
+    "@tanstack/query-core": "5.104.0",
+    "@tanstack/solid-query": "5.104.0",
+    "@zag-js/anatomy": "1.43.3",
+    "@zag-js/core": "1.43.3",
+    "@zag-js/dom-query": "1.43.3",
+    "@zag-js/presence": "1.43.3",
+    "@zag-js/solid": "1.43.3",
+    "@zag-js/tabs": "1.43.3",
+    "@zag-js/types": "1.43.3",
+    "@zag-js/utils": "1.43.3",
+    "pathe": "1.1.2",
+    "seroval": "1.6.7",
+    "seroval-plugins": "1.6.7",
+    "solid-js": "1.9.15",
+    "vinxi": "0.5.11",
+    "zod": "3.25.76"
+  }
+}
